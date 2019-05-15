@@ -31,4 +31,4 @@ Clone the project at https://github.com/jarrettkong/climb-on, and run `npm insta
 - Responsive design
 
 ## Contributors
-Ryan Barnett Lauren Boyer Michael King-Stockton Lauren Boyer
+Ryan Barnett Lauren Boyer Michael King-Stockton Jarrett Kong
