@@ -29,3 +29,6 @@ Clone the project at https://github.com/jarrettkong/climb-on, and run `npm insta
 - Allow users to choose which category to search by.
 - Allow users to leave reviews on each route.
 - Responsive design
+
+## Contributors
+Ryan Barnett Lauren Boyer Michael King-Stockton Lauren Boyer
