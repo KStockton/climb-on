@@ -2,6 +2,8 @@
 
 A site for users to search for climbing routes.
 
+Checkout the site here https://kstockton.github.io/climb-on/
+
 ## About
 
 This project is a collection of Colorado climbing areas and their associated routes. The project was inspired by a recent climbing trip, where a full climbing book was carried around all day. Users are able to search by an area they are interested in, either by name directly or by a nearby city.
