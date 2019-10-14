@@ -1,0 +1,58 @@
+.Route {
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  position: relative;
+  text-transform: capitalize;
+  width: 100%;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.Route-name {
+  font-size: 25px;
+  margin: 3px 0 15px 0; 
+}
+
+.Route-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80%;
+}
+
+.Route-name {
+  color: #393939;
+  font-size: 20px;
+  margin: 0 0 5px 0; 
+}
+
+.Route-info-container h6 {
+  color: grey;
+  font-size: 15px;
+  margin: 0;
+}
+
+section h6 span {
+  font-weight: 500;
+}
+
+.Route-favorite-button {
+  color: lightgrey;
+  cursor: pointer;
+  font-size: 25px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  &:hover {
+    color: #D93A45;
+  }
+}
+
+.favorited {
+  color: #D93A45;
+}
