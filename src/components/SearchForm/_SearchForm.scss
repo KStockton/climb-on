@@ -1,0 +1,67 @@
+.SearchForm {
+  flex-direction: column;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  padding: 10px 15px 20px 15px;
+  border-radius: 15px;
+}
+
+.SearchForm-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: rgba(249, 245, 245, 0.851);
+  width: 100%;
+  margin-top: 20px;
+}
+
+.SearchForm-search-bar {
+  height: 2.5rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: none;
+  border-color: #c3e5fe;
+  font-size: 20px;
+  color: grey;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.SearchForm-search-bar:focus {
+  outline: transparent;
+}
+
+.SearchForm-logo {
+  color: white;
+  font-weight: bold;
+  font-size: 5em;
+  margin: 0;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.SearchForm-logo span {
+  color: orange;
+}
+
+.SearchForm-submit-button {
+  background-color: #54494B;
+  color: #ffffff;
+  margin-left: -4px;
+  height: 2.5rem;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 5px 10px;
+  font-size: 20px;
+  line-height: 100%;
+  cursor: pointer;
+  border: none;
+}
+
+.SearchForm-submit-button:focus {
+  outline: transparent;
+}

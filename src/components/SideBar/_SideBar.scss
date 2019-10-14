@@ -1,0 +1,52 @@
+.SideBar {
+  grid-column-end: 2;
+  grid-column-start: 1;
+  height: 700px;
+}
+
+.SideBar-filter-form {
+  text-align: center;
+}
+
+.Sidebar-category {
+  border-radius: 5px;
+  border: 0;
+  font-size: 17px;
+  margin: 10px 0;
+  padding: 0;
+  text-align: left;
+
+  & input {
+    margin: 0 10px 0 0;
+  }
+
+  & > div,
+  & > select {
+    align-items: center;
+    display: flex;
+    margin: 10px 20px;
+  }
+}
+
+.SideBar-category-label {
+  font-size: 20px;
+}
+
+.Sidebar-form-submit-btn {
+  background-color: orange;
+  border-radius: 100px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  height: 35px;
+  text-transform: uppercase;
+  transition: width 0.25s;
+  width: 50%;
+  &:hover {
+    width: 55%;
+  }
+  &:focus {
+    outline: transparent;
+  }
+}

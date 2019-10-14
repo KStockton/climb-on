@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm should match the snapshot with all the data passed in 1`] = `
+<section
+  className="SearchForm"
+>
+  <h1
+    className="SearchForm-logo"
+  >
+    Climb
+    <span>
+      On
+    </span>
+  </h1>
+  <form
+    className="SearchForm-form"
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="on"
+      className="SearchForm-search-bar"
+      name="search"
+      onChange={[Function]}
+      placeholder="Search an area or town..."
+      type="text"
+    />
+    <button
+      className="SearchForm-submit-button"
+    >
+      <i
+        className="fas fa-search"
+      />
+    </button>
+  </form>
+</section>
+`;

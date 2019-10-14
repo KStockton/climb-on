@@ -1,0 +1,53 @@
+.Place {
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 25px;
+  padding: 0;
+  text-align: left;
+}
+
+.Place-header-container {
+  background-image: linear-gradient(hsla(0,0,0,0.5), hsla(0,0,0,0.5)), 
+    url('http://4.bp.blogspot.com/-vbVkH6dOGY4/VIRy6fhNvHI/AAAAAAAAQT8/89qYd1reuAw/s1600/IMG_6830.JPG');
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  color: white;
+  padding: 25px;
+}
+
+.Place-info {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.Place-name {
+  font-size: 35px;
+  margin: 0;
+}
+
+.Place-nearest-town {
+  margin-left: 2px;
+  margin: 0;
+}
+
+.Place-routes-container {
+  border-radius: 3px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 25px;
+}
+
+.Place-no-results-text {
+  color: #999;
+  font-size: 25px;
+  font-weight: 700;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
